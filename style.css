@@ -1,0 +1,47 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.akashi{
+    background-color: red;
+}
+.aomine{
+    background-color: darkviolet;
+}
+.shintaro{
+    background-color: green;
+}
+.murasakibara{
+    background-color: blueviolet;
+}
+.kise{
+    background-color: yellowgreen;
+}
+.kuroko{
+    background-color: lightblue;
+}
+.taiga{
+    background-color: red;
+}
+.reo{
+    background-color: silver;
+}
+.kotaro{
+    background-color: yellow;
+}
+.nebuya{
+    background-color: brown;
+}
+.shogo{
+    background-color: darkgrey;
+}
+.mayuzumi{
+    background-color: white;
+}
+.makoto{
+    background-color: black;
+}
+.teppei{
+    background-color: lightcoral;
+}
