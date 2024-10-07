@@ -1,47 +1,237 @@
 div{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-.akashi{
-    background-color: red;
+.Akashi{
+    border: 10px solid;
+    background-color: red;   
 }
-.aomine{
-    background-color: darkviolet;
-}
-.shintaro{
-    background-color: green;
-}
-.murasakibara{
-    background-color: blueviolet;
-}
-.kise{
-    background-color: yellowgreen;
-}
-.kuroko{
-    background-color: lightblue;
-}
-.taiga{
-    background-color: red;
-}
-.reo{
-    background-color: silver;
-}
-.kotaro{
-    background-color: yellow;
-}
-.nebuya{
-    background-color: brown;
-}
-.shogo{
-    background-color: darkgrey;
-}
-.mayuzumi{
-    background-color: white;
-}
-.makoto{
+.Akashi1{
+    text-align: center;
+    font-family:"Noto Sans JP", sans-serif;
     background-color: black;
+    color: white;
 }
-.teppei{
+.Aomine{
+    background-color: darkviolet;
+    border: 10px solid;
+    
+}
+.Aomine1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Shintaro{
+    background-color: green;
+    border: 10px solid;
+}
+.Shintaro1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Murasakibara{
+    background-color: blueviolet;
+    border: 10px solid;
+}
+.Murasakibara1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Kise{
+    background-color: yellowgreen;
+    border: 10px solid;
+}
+.Kise1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Kuroko{
+    background-color: lightblue;
+    border: 10px solid;
+}
+.Kuroko1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Taiga{
+    background-color: red;
+    border: 10px solid;
+}
+.Taiga1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Reo{
+    background-color: silver;
+    border: 10px solid;
+}
+.Reo1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Kotaro{
+    background-color: yellow;
+    border: 10px solid;
+}
+.Kotaro1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Nebuya{
+    background-color: brown;
+    border: 10px solid;
+}
+.Nebuya1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Shogo{
+    background-color: darkgrey;
+    border: 10px solid;
+}
+.Shogo1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Mayuzumi{
+    background-color: white;
+    border: 10px solid;
+}
+.Mayuzumi1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Makoto{
+    background-color: black;
+    border: 10px solid white;
+}
+.Makoto1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Teppei{
     background-color: lightcoral;
+    border: 10px solid;
+}
+.Teppei1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+*{
+    background-color: slateblue;
+}
+.Seirin{
+    border: 10px solid;
+    background-color: white;
+    
+}
+.intro1{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Kaijo{
+    border: 10px solid;
+    background-color: blue;
+    
+}
+.intro2{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Shutoku{
+    border: 10px solid;
+    background-color: green;
+    
+}
+.intro3{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Yosen{
+    border: 10px solid;
+    background-color: purple;
+    
+}
+.intro4{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Touou{
+    border: 10px solid white;
+    background-color: black;
+    
+}
+.intro5{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Rakuzan{
+    border: 10px solid;
+    background-color: silver;
+    
+}
+.intro6{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Fukuda{
+    border: 10px solid;
+    background-color: brown;
+    
+}
+.intro7{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
+}
+.Kirisaki{
+    background-color: grey;
+    border: 10px solid;
+}
+
+.intro8{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: black;
+    color: white;
 }
