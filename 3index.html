@@ -22,15 +22,34 @@
     </style>
 </head>
 <body>
-    <nav>
-        <div class="links">
-            <a href="index.html">Home</a>
-            <a href="2index.html">Character</a>
-            <a href="4index.html">Team</a>
-            <a href="6index.html">NBA</a>
-            <a href="7index.html">Season</a>
-        </div>
-    </nav><hr>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Character</a></li>
+                <li><a href="4index.html">Team</a></li>
+                <li><a href="6index.html">NBA</a></li>
+                <li><a href="7index.html">Season</a></li>
+            </ul>
+        </nav>
+    </div>   
+    <div id="menuBtn">
+        <img src="image/menu button.jpg" alt="" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+    <hr>
     <h2>Seijuro Akashi</h2>
         <div class="Akashi"><img src="./image/Character 1.jpg" alt=""></div>
         <p class="Akashi1">Seijuro Akashi is more than just a player hes a force of nature. As the captain of the Generation of Miracles, Akashi commands respect both on and off the court with his strategic brilliance and the power of the Emperors Eye, allowing him to predict every move his opponents will make. His unshakable confidence and dual personality make him one of the most fascinating and formidable characters in Kuroko no Basket.

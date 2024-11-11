@@ -16,19 +16,50 @@
         p{
             font-family: "Noto Sans JP", sans-serif;
         }
+        .left{
+            color: white;
+            margin-left: 1350px;
+            font-size: 1.3rem;
+        }
+        .left:hover{
+            text-decoration: underline;
+            color: black;
+        }
+            
     </style>
 </head>
 <body>
     <h1>Season2 Match</h1>
-    <nav>
-        <div class="links">
-            <a href="index.html">Home</a>
-            <a href="2index.html">Character</a>
-            <a href="4index.html">Team</a>
-            <a href="6index.html">NBA</a>
-            <a href="7index.html">Season</a>
-        </div>
-    </nav><hr>
+    <a href="CS3index.html"><h3 class="left">Next</h3></a>
+    <a href="7index.html"><h3 class="left">Back</h3></a>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Character</a></li>
+                <li><a href="4index.html">Team</a></li>
+                <li><a href="6index.html">NBA</a></li>
+                <li><a href="7index.html">Season</a></li>
+            </ul>
+        </nav>
+    </div>   
+    <div id="menuBtn">
+        <img src="image/menu button.jpg" alt="" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+    <hr>
     <h2>Winter Cup Preparation</h2>
     <div><img src="image/winter cup1.webp" alt=""></div>
     <p>After their defeat in the Inter-High tournament, Kuroko and Kagami recognize the need to improve and adapt if they want to win the Winter Cup.After realizing the limitations of his traditional passing and Misdirection playstyle, Kuroko decides to create new techniques to surprise opponents. He works on the Vanishing Drive, which allows him to slip past defenders by seemingly "disappearing" from their view. This technique plays on his natural skill in misdirection but adds a layer of offense, giving Kuroko a new way to contribute directly.Additionally, Kuroko develops Misdirection Overflow during his training. Unlike his usual Misdirection, which directs attention away from him, this new technique channels that attention onto him to make his teammates “invisible” on the court, amplifying their effectiveness.Kagami, recognizing the immense skill of the Generation of Miracles, knows he must push beyond his current limits. Coach Riko and Alex Garcia, Kagami’s American mentor, help him train to reach the Zone, a mental state of peak performance. The Zone allows Kagami to react faster, jump higher, and play at an elite level. However, entering the Zone requires intense focus and isn’t easily achieved, adding both a physical and mental challenge.Kagami also focuses on improving his teamwork with Kuroko, as they work to perfect their synchronized moves, particularly for moments of high tension in the Winter Cup.Coach Riko Aida develops new strategies to counter the unique playing styles of the Generation of Miracles and other strong teams. The entire Seirin team spends time refining their roles on the court, including Hyuuga’s shooting consistency, Izuki’s Eagle Eye, and Kiyoshi’s rebounding.Seirin practices complex plays and drills designed to maximize their teamwork. Riko’s emphasis on each player understanding their role and working cohesively reflects the core theme of teamwork that Seirin embodies. The team becomes tighter-knit and more strategic, with a renewed focus on communication and coordination.</p><hr>

@@ -19,7 +19,7 @@
         }
         .left{
             color: white;
-            margin-left: 1450px;
+            margin-left: 1350px;
             font-size: 1.3rem; 
         }
         .left:hover{
@@ -31,15 +31,33 @@
 </head>
 <body>
     <a href="3index.html"><h3 class="left">Next</h3></a>
-    <nav>
-        <div class="links">
-            <a href="index.html">Home</a>
-            <a href="2index.html">Character</a>
-            <a href="4index.html">Team</a>
-            <a href="6index.html">NBA</a>
-            <a href="7index.html">Season</a>
-        </div>
-    </nav><hr>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Character</a></li>
+                <li><a href="4index.html">Team</a></li>
+                <li><a href="6index.html">NBA</a></li>
+                <li><a href="7index.html">Season</a></li>
+            </ul>
+        </nav>
+    </div>   
+    <div id="menuBtn">
+        <img src="image/menu button.jpg" alt="" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
     <h1 style="text-align: center;">Generation of Miracles</h1><hr>
     <h2>Seijuro Akashi</h2>
     <div><img src="image/Character 1.jpg"></div><hr>

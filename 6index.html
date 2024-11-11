@@ -7,7 +7,7 @@
     <link rel="icon" href="image/favicon (1).ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <style>
-        div{
+        .NB{
             display: inline-block;
         }
         body{
@@ -65,37 +65,66 @@
             content: url(image/teppei1.jpg);
             border: 10px lightcoral solid;
         }
+        .left{
+            color: white;
+            margin-left: 1350px;
+            font-size: 1.3rem; 
+        }
+        .left:hover{
+            text-decoration: underline;
+            color: black;
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <div class="links">
-            <a href="index.html">Home</a>
-            <a href="2index.html">Character</a>
-            <a href="4index.html">Team</a>
-            <a href="6index.html">NBA</a>
-            <a href="7index.html">Season</a>
-        </div>
-    </nav><hr>
-    <div><img src="image/chris paul1.jpg" alt="" class="paul">
+    
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Character</a></li>
+                <li><a href="4index.html">Team</a></li>
+                <li><a href="6index.html">NBA</a></li>
+                <li><a href="7index.html">Season</a></li>
+            </ul>
+        </nav>
+    </div>   
+    <div id="menuBtn">
+        <img src="image/menu button.jpg" alt="" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+    <h1>NBA</h1><hr>
+    <div class="NB"><img src="image/chris paul1.jpg" alt="" class="paul">
     <h2>Chris Paul</h2></div>
-    <div><img src="image/michael jordan1.jpg" alt="" class="jor">
+    <div class="NB"><img src="image/michael jordan1.jpg" alt="" class="jor">
     <h2>Michael Jordan</h2></div>
-    <div><img src="image/stephen curry1.jpg" alt="" class="cur">
+    <div class="NB"><img src="image/stephen curry1.jpg" alt="" class="cur">
     <h2>Stephen Curry</h2></div>
-    <div><img src="image/oneal1.jpg" alt="" class="o">
+    <div class="NB"><img src="image/oneal1.jpg" alt="" class="o">
     <h2>Shaquille O'neal</h2></div>
-    <div><img src="image/kobe1.jpg" alt="" class="ko">
+    <div class="NB"><img src="image/kobe1.jpg" alt="" class="ko">
     <h2>Kobe Bryant</h2></div>
-    <div><img src="image/jason1.jpg" alt="" class="will">
+    <div class="NB"><img src="image/jason1.jpg" alt="" class="will">
     <h2>Jason Willams</h2></div>
-    <div><img src="image/lebron1.jpg" alt="" class="bron">
+    <div class="NB"><img src="image/lebron1.jpg" alt="" class="bron">
     <h2>Lebron James</h2></div>
-    <div><img src="image/parker1.jpg" alt="" class="par">
+    <div class="NB"><img src="image/parker1.jpg" alt="" class="par">
     <h2>Tony Parker</h2></div>
-    <div><img src="image/allen1.jpg" alt="" class="al">
+    <div class="NB"><img src="image/allen1.jpg" alt="" class="al">
     <h2>Allen Iverson</h2></div>
-    <div><img src="image/nikola1.jpg" alt="" class="nik">
+    <div class="NB"><img src="image/nikola1.jpg" alt="" class="nik">
     <h2>Nikola Jokic</h2></div>
 </body>
 </html>

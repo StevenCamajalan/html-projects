@@ -10,42 +10,91 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 <style>
-    h1{
-        color: white;
-    }
-    p{
-        font-family: 'Noto Sans JP', sans-serif;
+    h2{
         text-align: center;
-        font-size: 1.3rem;
-        color: white;
     }
     body{
-    width: 100%;
-    height: 85vh;
-    background-image: url(image/Background\ 1.jpg);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.5),#6a5acd),url(image/Background\ 1.jpg);
+    background-size: cover;
     background-position: center;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.flogo{
+    width: 90px; 
+   height: 90px;
+   position: absolute;
+   border-radius: 50%;
+   margin-left: 500px;
+}
+.flogos{
+   width: 90px; 
+   height: 90px;
+   position: absolute;
+   border-radius: 50%;
+   margin-left: 603px;
+}
+.flogose{
+   width: 90px; 
+   height: 90px;
+   position: absolute;
+   border-radius: 50%;
+   margin-left: 703px;
+}
+.fl{
+   width: 90px; 
+   height: 90px;
+   position: absolute;
+   border-radius: 50%;
+   margin-left: 803px; 
+}
+.lo{
+   width: 90px; 
+   height: 90px;
+   position: absolute;
+   border-radius: 50%;
+   margin-left: 903px;  
 }
 </style>
 </head>
 <body>
-    <h1>Kuroko Hoops</h1>
-    <nav>
-        <div class="links">
-            <a href="index.html">Home</a>
-            <a href="2index.html">Character</a>
-            <a href="4index.html">Team</a>
-            <a href="6index.html">NBA</a>
-            <a href="7index.html">Season</a>
-        </div>
-    </nav>
-    
-        <h1 style="text-align: center; font-size: 3rem;">Welcome to Kuroko Hoops</h1>
-    <p>Were more than just fans were a community passionate about the game, the story, and the unforgettable characters that make Kuroko no Basket a slam dunk in the anime world. Whether you're here to catch up on the latest episodes, explore in-depth character profiles, or connect with other fans, you've found your home court. This is the place where Kuroko no Basket fans gather to celebrate the anime that perfectly blends heart-pounding basketball action with inspiring stories of friendship and rivalry, we understand that Kuroko no Basket is more than just a story about basketball its a dynamic and inspiring journey that resonates with fans around the world. From the intense rivalries and awe-inspiring games to the deep bonds of friendship and the relentless pursuit of victory, Kuroko no Basket captures the essence of what it means to strive for greatness, both on and off the court.</p>
-    
-
-
+    <section id="banner">
+        <img src="image/7b03687d05d4fae82fc830e823ee51fa.jpg" alt="" class="logo" width="60">
+        <h1 class="banner-text">Welcome to Kuroko Hoops</h1>
+        <p class="banner-textp">Were more than just fans were a community passionate about the game, the story, and the unforgettable characters that make Kuroko no Basket a slam dunk in the anime world. Whether you're here to catch up on the latest episodes, explore in-depth character profiles, or connect with other fans, you've found your home court. This is the place where Kuroko no Basket fans gather to celebrate the anime that perfectly blends heart-pounding basketball action with inspiring stories of friendship and rivalry, we understand that Kuroko no Basket is more than just a story about basketball its a dynamic and inspiring journey that resonates with fans around the world. From the intense rivalries and awe-inspiring games to the deep bonds of friendship and the relentless pursuit of victory, Kuroko no Basket captures the essence of what it means to strive for greatness, both on and off the court.</p>
+    </section> 
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Character</a></li>
+                <li><a href="4index.html">Team</a></li>
+                <li><a href="6index.html">NBA</a></li>
+                <li><a href="7index.html">Season</a></li>
+            </ul>
+        </nav>
+    </div>   
+    <div id="menuBtn">
+        <img src="image/menu button.jpg" alt="" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+    <h2>Follow Us On</h2>
+    <a href="#"><img src="image/facebook.png" alt="" class="flogo"></a>
+    <a href="#"><img src="image/instagram.png" alt="" class="flogos"></a>
+    <a href="#"><img src="image/twitter.png" alt="" class="flogose"></a>
+    <a href="#"><img src="image/tiktok.png" alt="" class="fl"></a>
+    <a href="#"><img src="image/discord.png" alt="" class="lo"></a>
 </body>
 </html>
