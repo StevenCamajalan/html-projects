@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon (1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+        }
+        p{
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        html{
+            font-size: 62.5%;
+
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            overflow-x: hidden;
+            background-color: slateblue;
+            color: white;
+        }
+        .home{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8rem;
+            background-color: skyblue;
+        }
+        .home .home-content h1{
+            font-size: 6rem;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        .home-img{
+            border-radius: 50%;
+        }
+        .home-img img{
+            position: relative;
+            width: 32vw;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="home">
+        <div class="home-img">
+            <img src="image/Profile.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, I'm Andrie Steven Camajalan</h1>
+            <p>Someone who’s deeply passionate about programming and web designing. I am a hardworking and dedicated person.I’m currently learning HTML and CSS, and it’s been an exciting journey so far! I’m exploring how to structure web pages with HTML and style them with CSS to make them visually appealing.I’m always excited to take on new projects that push me to grow and learn.</p>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="2index.html">Character</a></li>
+                <li><a href="4index.html">Team</a></li>
+                <li><a href="6index.html">NBA</a></li>
+                <li><a href="7index.html">Season</a></li>
+                <li><a href="portfolioindex.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </div>   
+    <div id="menuBtn">
+        <img src="image/menu button.jpg" alt="" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+</html>
